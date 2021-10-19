@@ -13,7 +13,7 @@ public class LineComparisonComputation {
         double x1 = 2;
         double x2 = 4;
         double y1 = 6;
-        double y2 = 8;
+        double y2 = 12;
         double x3 = 2;
         double x4 = 4;
         double y3 = 6;
@@ -31,5 +31,9 @@ public class LineComparisonComputation {
         } else {
             System.out.println("Length of two lines are different");
         }
+
+        //Using compareTo method compare two lines
+        double diff = (lengthOfLine1.compareTo(lengthOfLine2));
+        System.out.println("Differance between two lines = " + diff);
     }
 }
